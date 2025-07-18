@@ -21,34 +21,17 @@ const Navigation = () => {
             <li className="nav-item">
               <Link to="/historia" className="nav-link">História</Link>
             </li>
-            <li className="nav-item dropdown">
-              <span className="nav-link">Transparência</span>
-              <div className="dropdown-content">
-                <a href="#" className="dropdown-item">Relatórios Financeiros</a>
-                <a href="#" className="dropdown-item">Balanços</a>
-                <a href="#" className="dropdown-item">Demonstrativos</a>
-              </div>
+            <li className="nav-item">
+              <Link to="/transparencia" className="nav-link">Transparência</Link>
             </li>
-            <li className="nav-item dropdown">
-              <span className="nav-link">CRPs</span>
-              <div className="dropdown-content">
-                <a href="#" className="dropdown-item">CRP Atual</a>
-                <a href="#" className="dropdown-item">CRPs Anteriores</a>
-              </div>
+            <li className="nav-item">
+              <Link to="/crps" className="nav-link">CRPs</Link>
             </li>
-            <li className="nav-item dropdown">
-              <span className="nav-link">Contabilidade</span>
-              <div className="dropdown-content">
-                <a href="#" className="dropdown-item">Balancetes</a>
-                <a href="#" className="dropdown-item">Demonstrações</a>
-              </div>
+            <li className="nav-item">
+              <Link to="/contabilidade" className="nav-link">Contabilidade</Link>
             </li>
-            <li className="nav-item dropdown">
-              <span className="nav-link">Investimentos</span>
-              <div className="dropdown-content">
-                <a href="#" className="dropdown-item">Política de Investimentos</a>
-                <a href="#" className="dropdown-item">Relatórios</a>
-              </div>
+            <li className="nav-item">
+              <Link to="/investimentos" className="nav-link">Investimentos</Link>
             </li>
             <li className="nav-item">
               <Link to="/certificacoes" className="nav-link">Certificações</Link>
