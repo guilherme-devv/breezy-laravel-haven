@@ -22,10 +22,15 @@ const App = () => (
         <Route path="/historia" element={<Historia />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/transparencia/:categoria" element={<Transparencia />} />
         <Route path="/crps" element={<CRPs />} />
+        <Route path="/crps/:categoria" element={<CRPs />} />
         <Route path="/contabilidade" element={<Contabilidade />} />
+        <Route path="/contabilidade/:categoria" element={<Contabilidade />} />
         <Route path="/investimentos" element={<Investimentos />} />
+        <Route path="/investimentos/:categoria" element={<Investimentos />} />
         <Route path="/certificacoes" element={<Certificacoes />} />
+        <Route path="/certificacoes/:categoria" element={<Certificacoes />} />
         <Route path="/login" element={<Login />} />
         <Route 
           path="/admin" 
